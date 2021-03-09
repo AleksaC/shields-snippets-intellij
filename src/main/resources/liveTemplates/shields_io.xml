@@ -10,4 +10,125 @@
       <option name="MARKDOWN" value="true"/>
     </context>
   </template>
+  <template
+      name="sioapc"
+      value="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siobsd3"
+      value="[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siobsd2"
+      value="[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siocc0"
+      value="[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="sioisc"
+      value="[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siogpl3"
+      value="[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siogpl2"
+      value="[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="sioagpl3"
+      value="[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siolgpl3"
+      value="[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="siomoz"
+      value="[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+  <template
+      name="sioulsc"
+      value="[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
 </templateSet>
