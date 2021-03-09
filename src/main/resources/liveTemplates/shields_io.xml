@@ -1,11 +1,12 @@
 <templateSet group="shields.io">
+  <!-- Licenses -->
   <template
       name="siomit"
       value="[![license](https://img.shields.io/badge/License-MIT-green.svg)]($URL$)"
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -16,7 +17,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -27,7 +28,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -38,7 +39,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -49,7 +50,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -60,7 +61,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -71,7 +72,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -82,7 +83,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -93,7 +94,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -104,7 +105,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -115,7 +116,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
@@ -126,7 +127,7 @@
       toReformat="false"
       toShortenFQNames="true"
   >
-    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;LICENSE&quot;" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true"/>
     </context>
