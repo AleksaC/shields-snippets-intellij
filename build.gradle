@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.7.2'
+}
+
+group 'me.aleksac'
+version '0.1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+buildSearchableOptions {
+    enabled = false
+}
+
+patchPluginXml {
+    version = project.version
+    sinceBuild '201.*'
+    untilBuild '203.*'
+}

@@ -1,0 +1,13 @@
+<templateSet group="shields.io">
+  <template
+      name="siomit"
+      value="[![license](https://img.shields.io/badge/License-MIT-green.svg)]($URL$)"
+      toReformat="false"
+      toShortenFQNames="true"
+  >
+    <variable name="URL" expression="" defaultValue="LICENSE" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true"/>
+    </context>
+  </template>
+</templateSet>

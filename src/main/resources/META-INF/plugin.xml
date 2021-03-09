@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>org.example.shields-snippets-intellij</id>
+    <name>shields.io Snippets</name>
+    <vendor email="aleksacukovic1@gmail.com" url="aleksac.me">Aleksa Ćuković</vendor>
+
+    <description><![CDATA[
+    Snippets for creating shields.io badges.
+    ]]></description>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <defaultLiveTemplates file="/liveTemplates/shields_io.xml"/>
+        <liveTemplateContext implementation="liveTemplates.MarkdownContext"/>
+    </extensions>
+
+    <actions>
+    </actions>
+</idea-plugin>
