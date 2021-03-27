@@ -132,4 +132,67 @@
             <option name="MARKDOWN" value="true"/>
         </context>
     </template>
+    <!-- Build status -->
+    <template
+        name="sioavy"
+        value="[![Build Status](https://img.shields.io/appveyor/build/$USER$/$REPO$)](https://ci.appveyor.com/project/$USER$/$REPO$)"
+        toReformat="false"
+        toShortenFQNames="true"
+    >
+        <variable name="USER" expression="" defaultValue="&quot;:user&quot;" alwaysStopAt="true"/>
+        <variable name="REPO" expression="" defaultValue="&quot;:repo&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template
+        name="siotro"
+        value="[![Build Status](https://img.shields.io/travis/$USER$/$REPO$)](https://travis-ci.org/$USER$/$REPO$)"
+        toReformat="false"
+        toShortenFQNames="true"
+    >
+        <variable name="USER" expression="" defaultValue="&quot;:user&quot;" alwaysStopAt="true"/>
+        <variable name="REPO" expression="" defaultValue="&quot;:repo&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template
+        name="siocrc"
+        value="[![Build Status](https://img.shields.io/circleci/build/gh/$USER$/$REPO$)](https://circleci.com/gh/$USER$/$REPO$)"
+        toReformat="false"
+        toShortenFQNames="true"
+    >
+        <variable name="USER" expression="" defaultValue="&quot;:user&quot;" alwaysStopAt="true"/>
+        <variable name="REPO" expression="" defaultValue="&quot;:repo&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template
+        name="siogha"
+        value="[![Build Status](https://img.shields.io/github/workflow/status/$USER$/$REPO$/$WORKFLOW$)](https://github.com/$USER$/$REPO$/actions$)"
+        toReformat="false"
+        toShortenFQNames="true"
+    >
+        <variable name="USER" expression="" defaultValue="&quot;:user&quot;" alwaysStopAt="true"/>
+        <variable name="REPO" expression="" defaultValue="&quot;:repo&quot;" alwaysStopAt="true"/>
+        <variable name="WORKFLOW" expression="" defaultValue="&quot;:workflow&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template
+        name="sioazp"
+        value="[![Build Status](https://img.shields.io/azure-devops/build/$ORG$/$PROJECT_ID$/$DEFINITION_ID$)](https://dev.azure.com/$ORG$/$PROJECT_ID$/_build?definitionId=$DEFINITION_ID$)"
+        toReformat="false"
+        toShortenFQNames="true"
+    >
+        <variable name="ORG" expression="" defaultValue="&quot;:organization&quot;" alwaysStopAt="true"/>
+        <variable name="PROJECT_ID" expression="" defaultValue="&quot;:project&quot;" alwaysStopAt="true"/>
+        <variable name="DEFINITION_ID" expression="" defaultValue="&quot;:definition_id&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
 </templateSet>
