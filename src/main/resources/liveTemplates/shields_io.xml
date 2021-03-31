@@ -184,12 +184,26 @@
     </template>
     <template
         name="sioazp"
-        value="[![Build Status](https://img.shields.io/azure-devops/build/$ORG$/$PROJECT_ID$/$DEFINITION_ID$)](https://dev.azure.com/$ORG$/$PROJECT_ID$/_build?definitionId=$DEFINITION_ID$)"
+        value="[![Build Status](https://img.shields.io/azure-devops/build/$ORG$/$PROJECT$/$DEFINITION_ID$)](https://dev.azure.com/$ORG$/$PROJECT$/_build?definitionId=$DEFINITION_ID$)"
         toReformat="false"
         toShortenFQNames="true"
     >
         <variable name="ORG" expression="" defaultValue="&quot;:organization&quot;" alwaysStopAt="true"/>
-        <variable name="PROJECT_ID" expression="" defaultValue="&quot;:project&quot;" alwaysStopAt="true"/>
+        <variable name="PROJECT" expression="" defaultValue="&quot;:project&quot;" alwaysStopAt="true"/>
+        <variable name="DEFINITION_ID" expression="" defaultValue="&quot;:definition_id&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <!-- Code coverage -->
+    <template
+        name="sioazpcov"
+        value="[![Code Coverage](https://img.shields.io/azure-devops/coverage/$ORG$/$PROJECT$/$DEFINITION_ID$)](https://dev.azure.com/$ORG$/$PROJECT$/_build/latest?definitionId=$DEFINITION_ID$)"
+        toReformat="false"
+        toShortenFQNames="true"
+    >
+        <variable name="ORG" expression="" defaultValue="&quot;:organization&quot;" alwaysStopAt="true"/>
+        <variable name="PROJECT" expression="" defaultValue="&quot;:project&quot;" alwaysStopAt="true"/>
         <variable name="DEFINITION_ID" expression="" defaultValue="&quot;:definition_id&quot;" alwaysStopAt="true"/>
         <context>
             <option name="MARKDOWN" value="true"/>
